@@ -22,5 +22,15 @@ public class CodingBatTest {
         CodingBat codingBat= new CodingBat();
         assertEquals(3,codingBat.diff21(18));
     }
+    @org.junit.Test
+    public void mapAB() {
+        CodingBat codingBat= new CodingBat();
+        assertEquals(Map.of("a","Hi"),cb.mapAB(new HashMap<>(()));
+    }
+    @org.junit.Test
+    public void wordLen() {
+        CodingBat codingBat= new CodingBat();
+        assertEqu;
+    }
 
 }
