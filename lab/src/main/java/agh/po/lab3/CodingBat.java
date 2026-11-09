@@ -28,4 +28,20 @@ public class CodingBat {
         return 21 - n;
 
     }
+    public Map<String, String> mapAB(Map<String, String> map) {
+        Map<String, String> AB = new HashMap<>();
+
+        if (map.containsKey("a") && map.containsKey("b")){
+            map.put("ab",map.get("a")+map.get("b"));
+        }
+        return map;
+    }
+    public Map<String, Integer> wordLen(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for (String s : strings) {
+            map.put(s, s.length());
+        }
+        return map;
+    }
+
 }
