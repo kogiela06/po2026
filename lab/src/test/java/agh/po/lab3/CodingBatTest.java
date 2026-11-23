@@ -1,5 +1,7 @@
 package agh.po.lab3;
 
+import java.util.Map;
+import java.util.HashMap;
 import static org.junit.Assert.*;
 
 public class CodingBatTest {
@@ -19,6 +21,16 @@ public class CodingBatTest {
     public void diff21() {
         CodingBat codingBat= new CodingBat();
         assertEquals(3,codingBat.diff21(18));
+    }
+    @org.junit.Test
+    public void mapAB() {
+        CodingBat codingBat= new CodingBat();
+        assertEquals(Map.of("a","Hi"),cb.mapAB(new HashMap<>(()));
+    }
+    @org.junit.Test
+    public void wordLen() {
+        CodingBat codingBat= new CodingBat();
+        assertEqu;
     }
 
 }
